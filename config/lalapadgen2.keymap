@@ -110,20 +110,20 @@
 &kp LEFT_SHIFT     &kp LCTRL  &kp LEFT_ALT  &mt RCTRL LANG2  &lt 1 SPACE  &kp LANGUAGE_1  &kp BACKSPACE  &lt 2 ENTER  &kp LEFT_WIN  &kp SQT      &kp MINUS   &kp BACKSLASH
                    &none      &kp RIGHT     &kp DOWN         &kp LEFT     &kp UP          &kp UP         &kp LEFT     &kp DOWN      &kp RIGHT    &none
 &mkp LCLK          &mkp RCLK  &mkp MCLK                                                                                             &mkp LCLK    &mkp RCLK   &mkp MCLK
-&mkp MB4           &mkp MB5   &kp LG(TAB)   &kp LG(D)        &kp LCTRL                                   &mkp MB4     &mkp MB5      &kp LG(TAB)  &kp LG(D)   &kp LCTRL
+&mkp MB4           &mkp MB5   &kp LG(TAB)   &kp LG(D)        &none                                       &mkp MB4     &mkp MB5      &kp LG(TAB)  &kp LG(D)   &none
             >;
         };
 
         LAYER1 {
             display-name = "layer1";
             bindings = <
-&kp F1            &kp F2             &kp F3      &kp F4      &kp F5                          &kp F6             &kp F7             &kp F8          &kp F9           &kp F10
-&kp LC(A)         &kp LC(S)          &kp HOME    &kp END     &kp PAGE_UP                     &kp LC(PAGE_UP)    &mkp MB1           &kp UP_ARROW    &mkp MB2         &kp F11
-&kp LC(Z)         &kp LC(X)          &kp LC(F8)  &kp LC(F9)  &kp PAGE_DOWN                   &kp LC(PAGE_DOWN)  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F12
-&trans            &trans             &trans      &trans      &trans         &trans  &kp DEL  &trans             &trans             &trans          &kp RCTRL        &kp RIGHT_SHIFT
-                  &trans             &trans      &trans      &trans         &trans  &trans   &trans             &trans             &trans          &trans
-&trans            &trans             &trans                                                                                        &trans          &trans           &trans
-&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans      &trans      &trans                          &kp LC(LG(LEFT))   &kp LC(LG(RIGHT))  &trans          &trans           &trans
+&kp F1            &kp F2             &kp F3     &kp F4     &kp F5                          &kp F6             &kp F7             &kp F8          &kp F9           &kp F10
+&kp LC(A)         &kp LC(S)          &kp HOME   &kp END    &kp PAGE_UP                     &kp LC(PAGE_UP)    &mkp MB1           &kp UP_ARROW    &mkp MB2         &kp F11
+&kp LC(Z)         &kp LC(X)          &kp LC(C)  &kp LC(V)  &kp PAGE_DOWN                   &kp LC(PAGE_DOWN)  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F12
+&trans            &trans             &trans     &trans     &trans         &trans  &kp DEL  &trans             &trans             &trans          &kp RCTRL        &kp RIGHT_SHIFT
+                  &trans             &trans     &trans     &trans         &trans  &trans   &trans             &trans             &trans          &trans
+&trans            &trans             &trans                                                                                      &trans          &trans           &trans
+&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans     &trans     &trans                          &kp LC(LG(LEFT))   &kp LC(LG(RIGHT))  &trans          &trans           &trans
             >;
         };
 
