@@ -90,7 +90,7 @@
 
         COMBO_DEL {
             bindings = <&kp DELETE>;
-            key-positions = <53 8 9>;
+            key-positions = <8 9>;
         };
     };
 
